@@ -3,7 +3,7 @@ function showRepositories(event, data) {
   
   let repoList = "<ul>"
   
-  for (let i in responseText) {
+  for (let i in this.responseText) {
     repoList += "<li>" + this.responseText[i]["name"] + "</li>"
   }
   
